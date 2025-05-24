@@ -1,0 +1,24 @@
+[project]
+name = "analisis-de-datos"
+version = "0.1.0"
+description = "Data Analysis Project"
+authors = [
+    {name = "F Martinez"}
+]
+readme = "README.md"
+requires-python = "^3.12"
+dependencies = [
+    "numpy (>=2.2.5,<3.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "matplotlib (>=3.10.3,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "missingno (>=0.5.2,<0.6.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
